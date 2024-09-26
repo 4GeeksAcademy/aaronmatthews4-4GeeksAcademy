@@ -1,0 +1,108 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+    # Your full name
+    first_name: Aaron
+    last_name: Matthews
+    
+    # Define yourself in 4-5 words
+    motto: Live a life worth living
+    
+    # Focus
+    focus: Learning Machine Learning and Python
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+
+      I hold a master's degree in Information Systems from FIU and currently work in the accounting field. 
+      I'm actively expanding my skill set in SQL and Python to enhance my technical expertise. 
+      Outside of work, I train Jiu Jitsu regularly, which keeps me disciplined and focused. 
+      I also have a deep passion machine learning, driving my curiosity to explore new innovations.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: aaronmatthews@aol.com #optional
+    phone: 305 222 4342 #optional
+    website: aaronmatthews.com #optional
+    linkedin: amatthews0104 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: aaronmatthews4
+    
+    twitter: 'amatt' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Jiu Jitsu
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: MS in Information System
+      university: Florida International University 
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2021 - 2022
+      details: |
+        Focusing on the integration of technology with business processes. 
+        The program equipped me with skills in areas like data analytics, IT management, and 
+        system design, helping me understand how technology drives organizational success. 
+        My coursework included advanced topics in database management, cybersecurity, and 
+        business intelligence, which deepened my technical and analytical abilities.
+          
+
+    - degree: BS in Business Administration
+      university: Florida International University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2016 - 2020
+      details: |
+        I earned my bachelor's degree in Business Administration, which provided me with a 
+        solid foundation in business principles like finance, management, and marketing. 
+        This degree sharpened my leadership and problem-solving skills, and gave me insight 
+        into how businesses operate and grow successfully.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: digital Assurance
+      time: 2023 - Present
+      company: PwC, Miami
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        As an IT Auditor at PwC, I worked in the Digital Assurance and Risk Management sector, 
+        focusing on evaluating and testing IT controls for clients. My role involved assessing the 
+        integrity and security of systems to ensure compliance with regulatory standards and 
+        business objectives.
+
+skills:
+    toolset:
+      - name: Python 
+        level: 5%
+
+      - name: SQL
+        level: 10%
+
+    
